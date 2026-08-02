@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #ff7eb3, #7b2cbf);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
