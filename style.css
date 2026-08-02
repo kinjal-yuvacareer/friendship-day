@@ -1,12 +1,79 @@
-body{
-margin:0;font-family:Arial,sans-serif;
-background:linear-gradient(135deg,#ff7eb3,#7b2cbf);
-display:flex;justify-content:center;align-items:center;
-min-height:100vh;color:#fff}
-.card{background:rgba(255,255,255,.15);backdrop-filter:blur(10px);
-padding:20px;border-radius:20px;max-width:380px;text-align:center;
-box-shadow:0 10px 30px rgba(0,0,0,.3)}
-.photos{display:flex;gap:10px;justify-content:center}
-.photos img{width:45%;border-radius:15px;border:3px solid #fff}
-button{padding:12px 18px;border:none;border-radius:25px;background:#ff4d88;color:#fff;font-size:16px;cursor:pointer}
-a{color:#fff}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff7eb3, #7b2cbf);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff
+    font-weight: 300;
+    justify-content: space-around;
+}
+
+.card {
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 380px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .3)
+}
+
+.photos {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.photos img {
+    width: 45%;
+    border-radius: 15px;
+    border: 3px solid #fff
+}
+
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 25px;
+    background: #ff4d88;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom : 10px;
+}
+
+a {
+    color: #fff
+}
+
+audio {
+    margin-top: 20px;
+    width: 60%;
+    transition: transform 0.3s ease-in-out;
+     background-color: #0c3529;
+    border-radius: 10px;
+}
+
+h1{
+    background: linear-gradient(90deg, #ff7eb3, #7b2cbf);
+    border-radius: 30px;
+}
+
+.box2{
+     background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 380px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
+}
+
+.box2 img{
+    width: 100%;
+    border-radius: 15px;
+
+}
