@@ -1,6 +1,3 @@
-function surprise(){
-alert("💖 Happy Friendship Day Paralu!\n\nThank you for being such an amazing friend.\n- Love, Kinjal ❤️");
-}
 function playMusic(){
     const audio = document.getElementById("bgmusic");
     if (audio) {
@@ -9,4 +6,9 @@ function playMusic(){
             console.log("Music will start after you click once.");  
         });
     }
+}
+
+function surprise(){
+    playMusic();
+    alert("💖 Happy Friendship Day Paralu!\n\nThank you for being such an amazing friend.\n- Love, Kinjal ❤️");
 }
